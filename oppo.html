@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/thuonghieu.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+      <!--navbar-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="trangchu.html" style="width:200px"><img src="img/logo_mini.png" style="width:100px;height:40px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="input-group input-group-sm mb-3" style="position:relative;top:10px;">                
+                <input type="text" value="Bạn tìm gì..." class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                <span class="input-group-text" id="inputGroup-sizing-sm">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </span>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="trangchu.html">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                      </svg>Home</a>
+                  </li>                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                        <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                      </svg>
+                      Sản phẩm
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="apple.html">Apple</a></li>
+                      <li><a class="dropdown-item" href="samsung.html">Samsung</a></li>
+                      <li><a class="dropdown-item" href="oppo.html">Oppo</a></li>
+                      <li><a class="dropdown-item" href="xiaomi.html">Xiaomi</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="lienhe.html">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                      </svg>
+                      Liên hệ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.apple.com/legal/warranty/products/warranty-rest-of-apac-vietnamese.html">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                      </svg>
+                      Bảo hành</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                      </svg>
+                      Giỏ hàng</a>
+                  </li>
+                </ul>                
+              </div>
+            </div>
+          </nav>
+          <div class="label">
+              <a href="trangchu.html" style="text-decoration:none">Home</a> > Oppo
+          </div><br>
+          <div class="first">
+            <img src="img/oppo_logo.jpg" style="width:30px;height:30px;margin-bottom: 10px;">
+            <span style="font-size:20px;font-weight:bold;">
+                OPPO</span>
+          </div><br>
+          <!--san pham-->
+          <div class="grid-grid_1">
+            <!--dong thu 1-->
+            <div class="row">
+                <div class="col">
+                  <a href=""><img src="img/reno6pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 6 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">29.990.000 VNĐ</span>
+                  <span class="cost_2">35.000.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+                </div>
+                <div class="col">
+                  <a href=""><img src="img/reno7pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 7 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">29.990.000 VNĐ</span>
+                  <span class="cost_2">35.000.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+                </div>
+                <div class="col">
+                  <a href=""><img src="img/reno6pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 6 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">29.990.000 VNĐ</span>
+                  <span class="cost_2">35.000.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+                </div>
+                <div class="col">
+                  <a href=""><img src="img/reno7pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 7 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">29.990.000 VNĐ</span>
+                  <span class="cost_2">35.000.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+                </div>
+                <div class="col">
+                  <a href=""><img src="img/reno6pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 6 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">29.990.000 VNĐ</span>
+                  <span class="cost_2">35.000.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+                </div>
+            </div>
+            <!--dong thu 2-->
+            <div class="row">
+                <div class="col">
+                  <a href=""><img src="img/reno7pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 7 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">20.990.000 VNĐ</span>
+                  <span class="cost_2">25.990.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+                </div>
+                <div class="col">
+                  <a href=""><img src="img/reno6pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 6 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">20.990.000 VNĐ</span>
+                  <span class="cost_2">25.990.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+                </div>
+                <div class="col">
+                  <a href=""><img src="img/reno7pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 7 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">20.990.000 VNĐ</span>
+                  <span class="cost_2">25.990.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+                </div>
+                <div class="col">
+                  <a href=""><img src="img/reno6pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 6 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">20.990.000 VNĐ</span>
+                  <span class="cost_2">25.990.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+                </div>
+                <div class="col">
+                  <a href=""><img src="img/reno7pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 7 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">20.990.000 VNĐ</span>
+                  <span class="cost_2">25.990.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+                </div>
+            </div>
+            <!--dong thu 3-->
+            <div class="row">
+              <div class="col">
+                <a href=""><img src="img/reno6pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 6 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">29.990.000 VNĐ</span>
+                  <span class="cost_2">35.000.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+              </div>
+              <div class="col">
+                <a href=""><img src="img/reno7pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 7 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">20.990.000 VNĐ</span>
+                  <span class="cost_2">25.990.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+              </div>
+              <div class="col">
+                <a href=""><img src="img/reno6pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 6 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">29.990.000 VNĐ</span>
+                  <span class="cost_2">35.000.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+              </div>
+              <div class="col">
+                <a href=""><img src="img/reno7pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 6 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">20.990.000 VNĐ</span>
+                  <span class="cost_2">25.990.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+              </div>
+              <div class="col">
+                <a href=""><img src="img/reno6pro.jpg" class="img"></a>
+                  <a href="" class="name_phone"><span>Oppo Reno 6 Pro New 100%</span></a><br>
+                  <span>Hàng chính hãng VN/A</span>
+                  <br>
+                  <span class="cost_1">29.990.000 VNĐ</span>
+                  <span class="cost_2">35.000.000</span>
+                  <br>
+                  <div class="mua"><button type="button" class="btn btn-success">Mua ngay</button></div>
+              </div>
+          </div>          
+        </div>
+          <!--so trang-->
+          <div class="page">
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+              <div class="btn-group me-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-outline-primary">1</button>&nbsp;
+                <button type="button" class="btn btn-primary">2</button>&nbsp;
+                <button type="button" class="btn btn-primary">3</button>&nbsp;
+                <button type="button" class="btn btn-primary">4</button>&nbsp;
+                <button type="button" class="btn btn-primary">5</button>&nbsp;
+                <button type="button" class="btn btn-primary">6</button>
+              </div>
+          </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+          <div class="grid-grid_2">
+            <div class="row">
+              <div class="col col_2">
+                <span style="font-weight:bolder">
+                  HỆ THỐNG TH-MOBILE</span><br><br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+                <span>140 Lê Trọng Tấn,P.Tây Thạnh, Q.Tân Phú</span>
+                <br><br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+                <span>115 DHT17, P.Đông Hưng Thuận, Q.12</span>
+              </div>
+              <div class="col col_2">
+                <span style="font-weight:bolder">
+                  DỊCH VỤ KHÁCH HÀNG
+                </span><br><br>
+                <span>Mở cửa : 8h30-21h30</span><br><br>
+                <span>Chính sách bảo hành sản phẩm Apple</span><br><br>
+                <span>Chính sách bảo hành sản phẩm Samsung</span><br><br>
+                <span>Chính sách bảo hành sản phẩm Oppo</span><br><br>
+                <span>Chính sách bảo hành sản phẩm Xiaomi</span><br><br>
+              </div>
+              <div class="col col_2">
+                <span style="font-weight:bolder">
+                  VỀ CHÚNG TÔI
+                </span><br><br>
+                <span>Lịch sử phát triển</span><br><br>
+                <span>Thông tin thanh toán & hàng hóa</span><br><br>
+                <span>Tuyển dụng nhân viên</span>
+              </div>
+              <div class="col col_2">
+                <span style="font-weight:bolder">
+                TỔNG ĐÀI HỖ TRỢ
+                </span><br><br>
+                <span>CSKH: 00 6868 7979(8h30-21h00)</span><br><br>
+                <span>Hỗ trợ kỹ thuật: 00 6666 8888(9h00-20h30)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="c">
+          <span style="color:white">&copy;2022 Tuấn-Huân Mobile - Hệ thống bán lẻ di động số 1 tại Việt Nam.</span>
+        </div>
+        
+    </body>
+</html>
