@@ -27,19 +27,11 @@ body{
     margin-top:10px;
     border-radius: 10px;
 }
-.first{
-    width:700px;    
+.banner{
+    width:1400px;
     height:250px;
-    margin-left:70px;
+    margin:auto;
     margin-top:10px;
-    border-radius: 10px;
-}
-.first_left{
-    width:700px;
-    height:250px;
-    position: absolute;
-    top:140px;
-    left:770px;
 }
 
 .carousel-control-prev-icon{
